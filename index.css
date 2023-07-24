@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/658683.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    max-width: 40%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    /* padding-top: 40px; */
+    margin-top: 40px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 9px;
+}
+
+#increment-btn {
+    background: #2C2891;
+    font-size: 25px;
+}
+#increment-btn:hover{
+    background-color: rgb(255, 0, 157);
+}
+
+#save-btn {
+    background: #1C7947;
+    font-size: 25px;
+}
+#save-btn:hover{
+    background-color: rgb(225, 80, 23);
+}
+
+#save-el {
+    font-weight: bold;
+    font-size: 30px;
+}
+#sum-el {
+    font-weight: bold;
+    font-size: 20px;
+}
+.sum{
+    background-color: lightcoral;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-bottom: 10px;
+}
+
